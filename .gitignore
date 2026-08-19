@@ -427,3 +427,12 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+# Angular
+dist/
+.angular/
+.cache/
+
+# Environment
+.env
+.env.*
