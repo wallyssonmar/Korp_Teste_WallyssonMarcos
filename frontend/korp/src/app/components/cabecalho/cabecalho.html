@@ -1,0 +1,14 @@
+<div class="flex items-center justify-around w-full h-20 bg-white shadow-lg">
+  <img class="w-35" src="/korp.webp" alt="Logo Korp" />
+  <div class="flex gap-4">
+    <a
+      class="link-cabecalho"
+      [class.ativo]="isActive('/estoque') || isActive('')"
+      routerLink="/estoque"
+      >Estoque</a
+    >
+    <a class="link-cabecalho" [class.ativo]="isActive('/nota-fiscal')" routerLink="/nota-fiscal"
+      >Nota fiscal</a
+    >
+  </div>
+</div>
